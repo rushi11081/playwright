@@ -40,6 +40,13 @@ public class LoginPageTest extends BaseTest {
 	public void loginPageNavigationURL()
 	{
 		Assert.assertFalse(3==5);
+		System.out.println("added");
        
+	}
+	@Test(priority =4)
+	public void newtest()
+	{
+		System.out.println("new function added");
+		
 	}
 }
