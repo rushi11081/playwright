@@ -48,5 +48,8 @@ public class LoginPageTest extends BaseTest {
 	{
 		System.out.println("new function added");
 		
+		System.out.println("new function added2");
+		
+		System.out.println("new function added3");
 	}
 }
