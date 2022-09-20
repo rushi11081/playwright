@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Open Cart Test Regression PW Suite]" guice-stage="DEVELOPMENT" verbose="4">
+  <listeners>
+    <listener class-name="opencart.listner.Librararylistener"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="Open Cart Home Page Test(failed)" verbose="4">
+    <classes>
+      <class name="opencart.tests.HomepageTest">
+        <methods>
+          <include name="end"/>
+          <include name="searchTest" invocation-numbers="2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- opencart.tests.HomepageTest -->
+    </classes>
+  </test> <!-- Open Cart Home Page Test(failed) -->
+</suite> <!-- Failed suite [Open Cart Test Regression PW Suite] -->
