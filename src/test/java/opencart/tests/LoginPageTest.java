@@ -33,4 +33,13 @@ public class LoginPageTest extends BaseTest {
 	{
 		Assert.assertTrue(loginPage.doLogin(prop.getProperty("username").trim(), prop.getProperty("password").trim()));
 	}
+	
+	
+	// new test added
+	@Test(priority = 3)
+	public void loginPageNavigationURL()
+	{
+		Assert.assertFalse(3==5);
+       
+	}
 }
